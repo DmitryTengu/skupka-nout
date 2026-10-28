@@ -51,6 +51,27 @@
     ]
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://skupka-nout.by/#location-pushkinskaya",
+    "name": "Скупка ноут",
+    "url": "https://skupka-nout.by/",
+    "telephone": "+375295475568",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "проспект Пушкина, 67, помещение 1Н",
+      "addressLocality": "Минск",
+      "addressCountry": "BY"
+    },
+    "areaServed": { "@type": "City", "name": "Минск" },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "12:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "18:00" }
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -90,6 +111,16 @@
             <li><a href="../polotsk/">Полоцк</a></li>
             <li><a href="../stolbtsy/">Столбцы</a></li>
             <li><a href="../dzerzhinsk/">Дзержинск</a></li>
+            <li><a href="../zhodino/">Жодино</a></li>
+            <li><a href="../kalinkovichi/">Калинковичи</a></li>
+            <li><a href="../smorgon/">Сморгонь</a></li>
+            <li><a href="../rogachev/">Рогачёв</a></li>
+            <li><a href="../osipovichi/">Осиповичи</a></li>
+            <li><a href="../gorki/">Горки</a></li>
+            <li><a href="../novogrudok/">Новогрудок</a></li>
+            <li><a href="../bereza/">Берёза</a></li>
+            <li><a href="../vileyka/">Вилейка</a></li>
+            <li><a href="../luninets/">Лунинец</a></li>
           </ul>
         </li>
         <li><a href="#faq">Вопросы</a></li>
@@ -103,7 +134,10 @@
     <section id="home" class="hero-light">
       <div class="container">
         <div class="hero-card">
-          <a class="hero-chip" href="#contact">📍 Пункт в Минске у метро Михалово · приём техники почтой</a>
+          <div class="hero-locations" aria-label="Две точки в Минске">
+            <a class="hero-chip" href="#contact">📍 Точка 1 · метро Михалово · ул. Уманская, 53</a>
+            <a class="hero-chip" href="https://www.google.com/maps/search/?api=1&amp;query=проспект+Пушкина+67+1Н+Минск" target="_blank" rel="noopener">📍 Точка 2 · метро Пушкинская · проспект Пушкина, 67, пом. 1Н ↗</a>
+          </div>
           <h1>Скупка ноутбуков в Волковыске</h1>
           <p>Продаёте ноутбук, смартфон или планшет в Волковыске? Отправьте технику почтой: напишите нам, оценим по описанию и назовём цену.</p>
           <div class="hero-actions">
@@ -182,7 +216,7 @@
         </ul>
 
         <h3>Как проходит сделка</h3>
-        <p>Сначала вы описываете устройство: модель, состояние, комплектацию. Мы оцениваем технику и называем цену, после чего вы отправляете технику почтой: мы подскажем, как её упаковать и куда отправить, и обсудим получение оплаты. Если удобнее, можно приехать в наш пункт в Минске: ул. Уманская, 53 (у станции метро Михалово).</p>
+        <p>Сначала вы описываете устройство: модель, состояние, комплектацию. Мы оцениваем технику и называем цену, после чего вы отправляете технику почтой: мы подскажем, как её упаковать и куда отправить, и обсудим получение оплаты. Если удобнее, можно приехать в один из наших пунктов в Минске: ул. Уманская, 53 (у станции метро Михалово) или проспект Пушкина, 67, помещение 1Н (район метро Пушкинская).</p>
 
         <h3>Скупка в соседних городах</h3>
         <p><a href="../grodno/">Скупка ноутбуков в Гродно</a> · <a href="../lida/">Скупка ноутбуков в Лиде</a> · <a href="../slonim/">Скупка ноутбуков в Слониме</a> · <a href="../">Скупка ноутбуков в Минске</a></p>
@@ -205,8 +239,8 @@
           </details>
 
           <details class="faq-item">
-            <summary>Где находится ваш пункт?</summary>
-            <p>Наш пункт находится в Минске: ул. Уманская, 53 (у станции метро Михалово), подъезд 4, вход с обратной стороны жилого дома. Работаем Пн–Пт 12:00–20:00, Сб 12:00–18:00, Вс — выходной.</p>
+            <summary>Где находятся ваши пункты?</summary>
+            <p>Наши пункты находятся в Минске: ул. Уманская, 53 (метро Михалово), подъезд 4, вход с обратной стороны жилого дома, и проспект Пушкина, 67, помещение 1Н (район метро Пушкинская). Работаем Пн–Пт 12:00–20:00, Сб 10:00–18:00, Вс — выходной.</p>
           </details>
           <details class="faq-item">
             <summary>Работаете ли вы с жителями Гродненской области?</summary>
@@ -245,8 +279,12 @@
             <div class="value"><a href="mailto:tvoynotebook@gmail.com">tvoynotebook@gmail.com</a></div>
           </div>
           <div class="contact-row">
-            <div class="label">📍 Пункт в Минске:</div>
+            <div class="label">📍 Точка 1:</div>
             <div class="value">ул. Уманская, 53 (метро Михалово), подъезд 4</div>
+          </div>
+          <div class="contact-row">
+            <div class="label">📍 Точка 2:</div>
+            <div class="value">проспект Пушкина, 67, помещение 1Н (район метро Пушкинская). <a href="https://www.google.com/maps/search/?api=1&amp;query=проспект+Пушкина+67+1Н+Минск" target="_blank" rel="noopener">Открыть адрес в Google Maps</a></div>
           </div>
         </address>
       </div>
@@ -283,39 +321,22 @@
           <li><a class="city-card" href="../polotsk/">Полоцк</a></li>
           <li><a class="city-card" href="../stolbtsy/">Столбцы</a></li>
           <li><a class="city-card" href="../dzerzhinsk/">Дзержинск</a></li>
+          <li><a class="city-card" href="../zhodino/">Жодино</a></li>
+          <li><a class="city-card" href="../kalinkovichi/">Калинковичи</a></li>
+          <li><a class="city-card" href="../smorgon/">Сморгонь</a></li>
+          <li><a class="city-card" href="../rogachev/">Рогачёв</a></li>
+          <li><a class="city-card" href="../osipovichi/">Осиповичи</a></li>
+          <li><a class="city-card" href="../gorki/">Горки</a></li>
+          <li><a class="city-card" href="../novogrudok/">Новогрудок</a></li>
+          <li><a class="city-card" href="../bereza/">Берёза</a></li>
+          <li><a class="city-card" href="../vileyka/">Вилейка</a></li>
+          <li><a class="city-card" href="../luninets/">Лунинец</a></li>
         </ul>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <nav class="footer-cities" aria-label="Скупка в других городах">
-      <a href="../brest/">Скупка ноутбуков в Бресте</a>
-      <a href="../vitebsk/">Скупка ноутбуков в Витебске</a>
-      <a href="../gomel/">Скупка ноутбуков в Гомеле</a>
-      <a href="../grodno/">Скупка ноутбуков в Гродно</a>
-      <a href="../mogilev/">Скупка ноутбуков в Могилёве</a>
-      <a href="../baranovichi/">Скупка ноутбуков в Барановичах</a>
-      <a href="../bobruisk/">Скупка ноутбуков в Бобруйске</a>
-      <a href="../borisov/">Скупка ноутбуков в Борисове</a>
-      <a href="../pinsk/">Скупка ноутбуков в Пинске</a>
-      <a href="../orsha/">Скупка ноутбуков в Орше</a>
-      <a href="../mozyr/">Скупка ноутбуков в Мозыре</a>
-      <a href="../novopolotsk/">Скупка ноутбуков в Новополоцке</a>
-      <a href="../rechitsa/">Скупка ноутбуков в Речице</a>
-      <a href="../slonim/">Скупка ноутбуков в Слониме</a>
-      <a href="../slutsk/">Скупка ноутбуков в Слуцке</a>
-      <a href="../soligorsk/">Скупка ноутбуков в Солигорске</a>
-      <a href="../volkovysk/">Скупка ноутбуков в Волковыске</a>
-      <a href="../zhlobin/">Скупка ноутбуков в Жлобине</a>
-      <a href="../svetlogorsk/">Скупка ноутбуков в Светлогорске</a>
-      <a href="../kobrin/">Скупка ноутбуков в Кобрине</a>
-      <a href="../lida/">Скупка ноутбуков в Лиде</a>
-      <a href="../molodechno/">Скупка ноутбуков в Молодечно</a>
-      <a href="../polotsk/">Скупка ноутбуков в Полоцке</a>
-      <a href="../stolbtsy/">Скупка ноутбуков в Столбцах</a>
-      <a href="../dzerzhinsk/">Скупка ноутбуков в Дзержинске</a>
-    </nav>
     <p>© skupka-nout.by — скупка ноутбуков, смартфонов и электроники в Волковыске</p>
     <p class="footer-sister">Ремонт ноутбуков, компьютеров и телевизоров: <a href="https://tvoy-nout.by/">tvoy-nout.by</a></p>
   </footer>

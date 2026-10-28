@@ -143,7 +143,7 @@ address.contact-details {
     left: 50%;
     transform: translateX(-50%);
     list-style: none;
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(4, max-content);
     gap: 0.1rem 1.5rem;
     padding: 0.75rem 1rem;
     background: #fff;
@@ -347,27 +347,6 @@ a.logo {
 .seo-text a {
     color: #6b8e23;
     font-weight: 600;
-}
-
-/* Ссылки на города в подвале */
-.footer-cities {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.4rem 1.25rem;
-    max-width: 1000px;
-    margin: 0 auto 1.25rem;
-}
-
-.footer-cities a {
-    color: #cfd8c4;
-    font-size: 0.85rem;
-    text-decoration: none;
-}
-
-.footer-cities a:hover {
-    color: #fff;
-    text-decoration: underline;
 }
 
 /* Ссылка на сайт ремонта */
@@ -818,3 +797,8 @@ a.logo {
 
     .menu-open .float-contacts { opacity: 0; pointer-events: none; }
 }
+
+/* Two location links in the hero */
+.hero-locations{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+.hero-locations .hero-chip{display:inline-flex;align-items:center;max-width:100%;text-decoration:none}
+@media(max-width:600px){.hero-locations{flex-direction:column;align-items:flex-start}.hero-locations .hero-chip{white-space:normal}}

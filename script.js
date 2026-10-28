@@ -63,7 +63,7 @@
 
     var PHONE_TEL = '+375295475568';
     var PHONE_TEXT = '+375 29 547-55-68';
-    var HOURS = 'Пн–Пт 12:00–20:00, Сб 12:00–18:00, Вс — выходной';
+    var HOURS = 'Пн–Пт 12:00–20:00, Сб 10:00–18:00, Вс — выходной';
 
     var btn = document.createElement('button');
     btn.type = 'button';
