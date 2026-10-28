@@ -39,7 +39,7 @@ header {
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #6b8e23;
+    color: #5c7c1c;
 }
 
 .nav-links {
@@ -56,13 +56,13 @@ header {
 }
 
 .nav-links a:hover {
-    color: #6b8e23;
+    color: #5c7c1c;
 }
 
 /* Hero */
 .hero {
     --angle: 135deg;
-    --color1: #6b8e23;
+    --color1: #5c7c1c;
     --color2: #7a9e2a;
     --color3: #556b2f;
     background: linear-gradient(var(--angle), var(--color1), var(--color2), var(--color3));
@@ -231,7 +231,7 @@ header {
 
 .product-btn {
     padding: 0.75rem 1.2rem;
-    background: #6b8e23;
+    background: #5c7c1c;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -301,12 +301,12 @@ header {
 
 .btn-secondary {
     background: #fff;
-    color: #6b8e23;
-    border: 2px solid #6b8e23;
+    color: #5c7c1c;
+    border: 2px solid #5c7c1c;
 }
 
 .btn-secondary:hover {
-    background: #6b8e23;
+    background: #5c7c1c;
     color: #fff;
 }
 
@@ -447,7 +447,7 @@ header {
 .faq-item summary::after {
     content: "+";
     float: right;
-    color: #6b8e23;
+    color: #5c7c1c;
     font-size: 1.3rem;
     line-height: 1;
 }
@@ -468,7 +468,7 @@ address.contact-details {
 }
 
 .contact-details a {
-    color: #6b8e23;
+    color: #5c7c1c;
     text-decoration: none;
     font-weight: 600;
 }
